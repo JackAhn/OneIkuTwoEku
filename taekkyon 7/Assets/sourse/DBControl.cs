@@ -43,7 +43,7 @@ public class DBControl : MonoBehaviour {
             sqlconn = new MySqlConnection(sqlDatabase);
             sqlconn.Open();
             Debug.Log("SQL 접속 상태 : " + sqlconn.State);
-            MySqlCommand dbcmd = new MySqlCommand("insert into userdata values('"+id.text+"', '"+name.text+"', '0', '0', '0');", sqlconn); //명령어를 커맨드에 입력
+            MySqlCommand dbcmd = new MySqlCommand("insert into userdata values("+id.text+", "+name.text+", 0, 0, 0);", sqlconn); //명령어를 커맨드에 입력
             dbcmd.ExecuteNonQuery();
             SceneManager.LoadScene("login");
             sqlconn.Close();
