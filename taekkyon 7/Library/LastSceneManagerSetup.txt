@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Sign Up.unity
+- path: Assets/Eck once Eck twice.unity
   isLoaded: 1
   isActive: 1
