@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Eck once Eck twice.unity
+=======
+- path: Assets/PlayerSET.unity
+>>>>>>> 7b70bf02ff47936bd229d7a6df8633ab60a91c09
   isLoaded: 1
   isActive: 1
